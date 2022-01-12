@@ -40,7 +40,40 @@
 
 ### Decision Statements
 
+ - a double equals sign == is a comparison operator or Boolean operator which means "equal to"
+ - nested if else statements look like:
+    ```
+    score = int(input("What is the score?"))
+    
+    if score >= 90:
+        print("Your grade is an A")
+    else:
+        if score >= 80:
+            print("Your grade is a B")
+        else:
+            if score >= 70:
+                print("Your grade is a C")
+            else:
+                if score >= 60:
+                    print("Your grade is a D")
+                else:
+                    print("Your grade is a F")
+    ```
+- nested else if scores can also use if-elif-else statements (use if you have to scroll right to read all of your code!)
+    ```
+    score = int(input("What is the score?"))
 
+    if score >= 90:
+        print("Your grade is an A")
+    elif score >= 80:
+        print("Your grade is a B")
+    elif score >= 70:
+        print("Your grade is a C")
+    elif score >= 60:
+        print("Your grade is a D")
+    else:
+        print("Your grade is a F")
+    ```
 ---
  ## Resources
  ### General ###
